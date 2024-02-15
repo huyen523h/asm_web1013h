@@ -1,0 +1,155 @@
+.row {
+  float: left;
+  width: 100%;
+}
+.boxcenter {
+  width: 80%;
+  margin: 0 auto;
+}
+body {
+  margin: 0;
+}
+header {
+  background-color: #138c89;
+  min-height: 200px;
+}
+.boxcenter img {
+  display: block;
+  width: 100%;
+}
+nav {
+  background-color: rgb(243, 240, 240);
+  min-height: 20px;
+  margin-top: 25px;
+}
+article {
+  background-color: white;
+  min-height: 500px;
+  /* margin: 20px 0; */
+}
+
+footer {
+  background-color: #138c89;
+  min-height: 250px;
+}
+.img {
+  width: 800px;
+  height: auto;
+  display: block;
+}
+
+.boxnews img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  display: block;
+}
+.boxnews a {
+  font-size: 23pt;
+  text-decoration: none;
+  font-style: unset;
+  color: darkcyan;
+  display: block;
+}
+.boxnews p {
+  font-size: 13pt;
+  font-style: unset;
+}
+.mrbt {
+  margin-bottom: 20px;
+}
+.menu li {
+  display: inline;
+  padding: 80px;
+}
+.menu li a {
+  color: black;
+  display: inline;
+  text-decoration: none;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+.menu li a:hover {
+  color: blue;
+}
+.boxtop {
+  background-color: #138c89;
+  margin-bottom: 10px;
+}
+.boxtop p {
+  color: white;
+  margin-left: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 1px 1px 2px white;
+  font-size: larger;
+}
+.boxtop p img {
+  width: 50px;
+  display: inline;
+}
+.menutop li {
+  padding: 6px;
+  color: white;
+}
+.menutop li a {
+  color: white;
+  text-decoration: none;
+}
+.menutop li a:hover {
+  color: navy;
+}
+.imgtop {
+  float: right;
+  display: block;
+  margin: 15px 10px;
+  width:calc(40%-10px);
+}
+.tb {
+  float: left;
+  margin-left: 25px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menuft h4 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+  /* text-align: center; */
+}
+.menuft li{
+  color: white;
+ /* margin-left: 55px; */
+ /* text-align: left; */
+}
+.menuft li a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+.menuft li a:hover{
+  color: navy;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  padding: 20px;
+}
+
+.gioithieu{
+  margin-left: 90px;
+}
+.thongbao{
+  margin-left: 25px;
+}
+.tgioithieu{
+text-align: center;
+
+}
+.h3{
+  
+}
+
