@@ -22,26 +22,26 @@ nav {
   min-height: 20px;
   margin-top: 25px;
 }
-.rowmenu{
+.rowmenu {
   display: grid;
   grid-template-columns: 1fr 6fr;
   border-radius: 5px;
   border: 1px solid #e7e7e7;
   background-color: #f8f8f8;
 }
-.logonam img{
+.logonam img {
   width: 100%;
   max-width: 120px;
   padding-left: 20px;
 }
-.thptpd{
+.thptpd {
   text-transform: uppercase;
   color: #138c89;
   font-weight: bold;
   margin: 20px 40px;
   font-size: 20px;
 }
-iframe{
+iframe {
   width: 100%;
   min-height: 500px;
 }
@@ -82,7 +82,7 @@ footer {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.menu{
+.menu {
   margin-bottom: 20px;
 }
 .menu li {
@@ -91,18 +91,17 @@ footer {
   font-weight: bold;
   font-size: 17px;
 }
-.menu li:nth-child(1){
+.menu li:nth-child(1) {
   margin-left: 0px;
 }
-.rowpost{
-  
+.rowpost {
 }
 .menu li a {
   color: black;
   display: inline;
   text-decoration: none;
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .menu li a:hover {
   color: blue;
@@ -137,7 +136,7 @@ footer {
   float: right;
   display: block;
   margin: 15px 10px;
-  width:calc(40%-10px);
+  width: calc(40%-10px);
 }
 .tb {
   float: left;
@@ -154,17 +153,17 @@ footer {
   color: white;
   /* text-align: center; */
 }
-.menuft li{
+.menuft li {
   color: white;
- /* margin-left: 55px; */
- /* text-align: left; */
+  /* margin-left: 55px; */
+  /* text-align: left; */
 }
 .menuft li a {
   text-decoration: none;
   color: white;
   font-size: small;
 }
-.menuft li a:hover{
+.menuft li a:hover {
   color: navy;
 }
 footer {
@@ -174,17 +173,59 @@ footer {
   padding: 20px;
 }
 
-.gioithieu{
+.gioithieu {
   margin-left: 90px;
 }
-.thongbao{
+.thongbao {
   margin-left: 25px;
 }
-.tgioithieu{
-text-align: center;
-
+.ques-item {
+  margin-bottom: 15px;
 }
-.h3{
+.lienhe {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.title{
+    margin: 20px 0;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+.control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
   
 }
+.control:hover{
+border-color: aqua;
+}
+textarea:hover{
+    border-color: aqua;
+}
 
+.btnSubmit {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.btnSubmit:hover {
+  background-color: rgb(168, 11, 11);
+}

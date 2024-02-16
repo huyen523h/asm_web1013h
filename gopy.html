@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trường THPT Phụ Dực</title>
-    <link rel="stylesheet" href="asm.css" />
+    <title>Góp ý</title>
+    <link rel="stylesheet" href="gopy.css" />
   </head>
   <body>
     <div class="boxcenter">
@@ -17,7 +17,7 @@
         <div class="logonam">
           <img src="./logo55.jpg" alt="" />
         </div>
-        
+
         <div>
           <h2 class="thptpd">Trường THPT Phụ Dực</h2>
           <ul class="menu">
@@ -29,78 +29,42 @@
           </ul>
         </div>
       </nav>
-      <article class="rowpost">
-        <div>
-          <div class="boxtop row">
-            <div class="tb">
-              <p>THÔNG BÁO <img src="New.png" /></p>
-              <ul class="menutop">
-                <li>
-                  <a
-                    href="http://thptphuduc.thaibinh.edu.vn/thong-bao/thong-bao-cua-truong/ke-hoa-ch-xe-p-lo-p-10-nam-ho-c-2023-2024.html"
-                    >KẾ HOẠCH XẾP LỚP 10 NĂM HỌC 2023-2024</a
-                  >
-                </li>
-                <hr />
-                <li>
-                  <a
-                    href="http://thptphuduc.thaibinh.edu.vn/thong-bao/thong-bao-cua-truong/nhu-ng-die-u-ca-n-bie-t-chua-n-bi-cho-nam-ho-c-2023-2024.html"
-                    >NHỮNG ĐIỀU CẦN BIẾT CHUẨN BỊ CHO NĂM HỌC 2023-2024</a
-                  >
-                </li>
-                <hr />
-                <li>
-                  <a
-                    href="http://thptphuduc.thaibinh.edu.vn/thong-bao/tue-n-sinh-lo-p-10-thpt-do-t-2.html"
-                    >TUYỂN SINH LỚP 10 THPT ĐỢT 2</a
-                  >
-                </li>
-                <hr />
-                <li>
-                  <a
-                    href="http://thptphuduc.thaibinh.edu.vn/thong-bao/thong-bao-cua-truong/tu-van-tuyen-sinh-nam-20222.html"
-                    >TƯ VẤN TUYỂN SINH NĂM 2022</a
-                  >
-                </li>
-                <hr />
-              </ul>
-            </div>
-            <div class="imgtop">
-              <img src="ad.jpg" alt="" />
-            </div>
+      <article>
+        <h5 class="title">Gửi góp ý cho chúng tôi:</h5>
+        <form class="gopy" action="">
+          <div class="ques-item">
+            <label for="name">Họ và tên:</label>
+            <input class="name control" type="text" placeholder="Nhập vào họ tên" />
           </div>
-          <div class="boxnews row mrbt">
-            <img src="att.jpg" alt="" />
-            <a
-              href="http://thptphuduc.thaibinh.edu.vn/thong-bao/tue-n-sinh-lo-p-10-thpt-do-t-2.html"
-              >TUYỂN SINH LỚP 10 THPT ĐỢT 2</a
-            >
-            <p>23/06/2022</p>
+          <div class="ques-item">
+            <label for="address">Địa chỉ:</label>
+            <input class="address control" type="text" />
           </div>
-          <hr />
-          <div class="boxnews row mrbt">
-            <img src="anh2.jpg" alt="" />
-            <a
-              href="http://thptphuduc.thaibinh.edu.vn/tin-tuc/tin-tuc-cua-truong/ke-hoa-ch-tuye-n-sinh-lo-p-10-nam-ho-c-2022-2023.html"
-              >KẾ HOẠCH TUYỂN SINH LỚP 10 NĂM HỌC 2022-2023</a
-            >
-
-            <p>01/06/2022</p>
+          <div class="ques-item">
+            <label for="tel">Số điện thoại:</label>
+            <input class="tel control" type="tel" placeholder="+84" />
           </div>
-
-          <hr />
-          <div class="boxnews row mrbt">
-            <img src="gvxs.jpg" alt="" />
-            <a
-              href="http://thptphuduc.thaibinh.edu.vn/hoat-dong/hoat-dong-chuyen-mon/nhung-tap-the-va-ca-nhan-xuat-sac-nam-2020.html"
-            >
-              NHỮNG TẬP THỂ VÀ CÁ NHÂN XUẤT SẮC NĂM 2020</a
-            >
-
-            <p>23/06/2022</p>
+          <div class="ques-item">
+            <label for="email">Email:</label>
+            <input
+              class="email control"
+              type="email"
+              placeholder="@gmail.com"
+            />
           </div>
-          <hr />
-        </div>
+          <div class="ques-item">
+            <label for="">Nội dung góp ý:</label>
+            <textarea
+              class="noidung"
+              cols="30"
+              rows="5"
+              
+            ></textarea>
+          </div>
+          <div class="ques-item">
+            <input class="btnSubmit" type="submit" />
+          </div>
+        </form>
       </article>
       <footer class="row">
         <div class="menuft gioithieu">

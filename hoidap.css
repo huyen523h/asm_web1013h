@@ -22,26 +22,26 @@ nav {
   min-height: 20px;
   margin-top: 25px;
 }
-.rowmenu{
+.rowmenu {
   display: grid;
   grid-template-columns: 1fr 6fr;
   border-radius: 5px;
   border: 1px solid #e7e7e7;
   background-color: #f8f8f8;
 }
-.logonam img{
+.logonam img {
   width: 100%;
   max-width: 120px;
   padding-left: 20px;
 }
-.thptpd{
+.thptpd {
   text-transform: uppercase;
   color: #138c89;
   font-weight: bold;
   margin: 20px 40px;
   font-size: 20px;
 }
-iframe{
+iframe {
   width: 100%;
   min-height: 500px;
 }
@@ -82,7 +82,7 @@ footer {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.menu{
+.menu {
   margin-bottom: 20px;
 }
 .menu li {
@@ -91,18 +91,17 @@ footer {
   font-weight: bold;
   font-size: 17px;
 }
-.menu li:nth-child(1){
+.menu li:nth-child(1) {
   margin-left: 0px;
 }
-.rowpost{
-  
+.rowpost {
 }
 .menu li a {
   color: black;
   display: inline;
   text-decoration: none;
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .menu li a:hover {
   color: blue;
@@ -137,7 +136,7 @@ footer {
   float: right;
   display: block;
   margin: 15px 10px;
-  width:calc(40%-10px);
+  width: calc(40%-10px);
 }
 .tb {
   float: left;
@@ -154,17 +153,17 @@ footer {
   color: white;
   /* text-align: center; */
 }
-.menuft li{
+.menuft li {
   color: white;
- /* margin-left: 55px; */
- /* text-align: left; */
+  /* margin-left: 55px; */
+  /* text-align: left; */
 }
 .menuft li a {
   text-decoration: none;
   color: white;
   font-size: small;
 }
-.menuft li a:hover{
+.menuft li a:hover {
   color: navy;
 }
 footer {
@@ -174,17 +173,75 @@ footer {
   padding: 20px;
 }
 
-.gioithieu{
+.gioithieu {
   margin-left: 90px;
 }
-.thongbao{
+.thongbao {
   margin-left: 25px;
 }
-.tgioithieu{
-text-align: center;
 
+/* .title {
+  text-align: center;
+  margin-top: 10px;
 }
-.h3{
-  
+.hoidap {
+  width: 100%;
+  max-width: 700px;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20%;
+}
+.abcd{
+  font-size: 17px;
+  font-weight: 500;
+} */
+.title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
+.hoidap {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.ques-item {
+  margin-bottom: 20px;
+}
+
+.abcd {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.name,
+.address,
+.email,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btnSubmit {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btnSubmit:hover {
+  background-color: rgb(157, 7, 7);
+}
